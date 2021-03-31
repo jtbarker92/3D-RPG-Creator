@@ -1,0 +1,474 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 32603 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/1B56E1C25A51198F/Game Systems RPG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61456
+Successfully changed project path to: C:/Users/1B56E1C25A51198F/Game Systems RPG
+C:/Users/1B56E1C25A51198F/Game Systems RPG
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 18.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/1B56E1C25A51198F/Game Systems RPG/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1c30)
+    Vendor:   
+    VRAM:     5032 MB
+    Driver:   26.21.14.4112
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000993 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.728 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.7 MB.
+System memory in use after: 56.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1542.
+Total: 5.039400 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.132900 ms MarkObjects: 4.375100 ms  DeleteObjects: 0.230800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Game Systems RPG/Warrior babe
+  artifactKey: Guid(ee946a565ae001640a84324563a5ce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior babe using Guid(ee946a565ae001640a84324563a5ce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fe0cc62024b0183f490a3f657895ea') in 0.020982 seconds
+  Import took 0.025253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.875660 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe
+  artifactKey: Guid(ee946a565ae001640a84324563a5ce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe using Guid(ee946a565ae001640a84324563a5ce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ac166a9f5b700d222a8c5d47a964bc') in 0.006722 seconds
+  Import took 0.008275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.293137 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe
+  artifactKey: Guid(ac3ca9cdae1223b48bcc268193033e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe using Guid(ac3ca9cdae1223b48bcc268193033e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3eee9614039b4c30c29644acdf8ddad') in 0.001718 seconds
+  Import took 0.003203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078060 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Warrior.FBX
+  artifactKey: Guid(18e6227c88f79924ba0487f5145feea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Warrior.FBX using Guid(18e6227c88f79924ba0487f5145feea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feb59b0304e3f777f3bf20ba2fbd518') in 0.151424 seconds
+  Import took 0.153124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/WarriorBabe.psd
+  artifactKey: Guid(6c705afd7e5cfa148846c4fc7e178dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/WarriorBabe.psd using Guid(6c705afd7e5cfa148846c4fc7e178dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c91f4f81a61696ea2b8298e70e4381') in 0.022225 seconds
+  Import took 0.023699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/WarriorBabe.png
+  artifactKey: Guid(76d8be51877c74a48a0194df847f0566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/WarriorBabe.png using Guid(76d8be51877c74a48a0194df847f0566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a61437bfb0902973020f827bc8f5c15') in 0.031932 seconds
+  Import took 0.033397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.670578 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Warrior.FBX
+  artifactKey: Guid(18e6227c88f79924ba0487f5145feea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Warrior.FBX using Guid(18e6227c88f79924ba0487f5145feea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846e430b270924d4a58d428a01e131d7') in 0.036804 seconds
+  Import took 0.038642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.609248 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Warrior.FBX
+  artifactKey: Guid(18e6227c88f79924ba0487f5145feea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Warrior.FBX using Guid(18e6227c88f79924ba0487f5145feea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d2bc3a5ef67863e3fff996bec249db') in 0.034898 seconds
+  Import took 0.036592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 398.396627 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character
+  artifactKey: Guid(b645e457a611c82408c6e9c62d9db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character using Guid(b645e457a611c82408c6e9c62d9db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583f672978396106168495363da76c9f') in 0.005925 seconds
+  Import took 0.007856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048735 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_0.png
+  artifactKey: Guid(c370240ca462c944496ea712497bf837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_0.png using Guid(c370240ca462c944496ea712497bf837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853ea4a3e244fef02ebbacc9ec69fdc0') in 0.020409 seconds
+  Import took 0.022033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_2.png
+  artifactKey: Guid(22a78dd110f53674597dc0933569caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_2.png using Guid(22a78dd110f53674597dc0933569caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53f8aeb2b11ba9d88cc976ba0d1e193') in 0.018445 seconds
+  Import took 0.019959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_3.png
+  artifactKey: Guid(449d99a77d756d547ae0508ba1d45c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_3.png using Guid(449d99a77d756d547ae0508ba1d45c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccde8ff305f5d11bba0dff63686a7a6') in 0.021889 seconds
+  Import took 0.023381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_3.png
+  artifactKey: Guid(8180f0b3601974a4a852d3ccce45cf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_3.png using Guid(8180f0b3601974a4a852d3ccce45cf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633d7fdd40f30ab204f8cd4d7ed4ea1') in 0.027837 seconds
+  Import took 0.029253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Mouth_0.png
+  artifactKey: Guid(73b91a203e1aacd4ea1e9480c8a6f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Mouth_0.png using Guid(73b91a203e1aacd4ea1e9480c8a6f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868d6d410cf35511dcec619ab4caad2d') in 0.016926 seconds
+  Import took 0.018355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_3.png
+  artifactKey: Guid(ab5cc686c2f402d4eba91b9f3af7e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_3.png using Guid(ab5cc686c2f402d4eba91b9f3af7e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1224332be0c68b02635225c8a0941fc') in 0.021807 seconds
+  Import took 0.023297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_7.png
+  artifactKey: Guid(f386eb3b6202ef5418456fccf5ac69c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_7.png using Guid(f386eb3b6202ef5418456fccf5ac69c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83ce9a210216338a67ef13bfd717707') in 0.033626 seconds
+  Import took 0.035058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_9.png
+  artifactKey: Guid(f570f9cac8a84b34f85afacfc52879ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_9.png using Guid(f570f9cac8a84b34f85afacfc52879ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a475f063af7225dc346addd13a5c562') in 0.016618 seconds
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Mouth_1.png
+  artifactKey: Guid(069479fcda8c74f4ea021a11bf3a2dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Mouth_1.png using Guid(069479fcda8c74f4ea021a11bf3a2dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf7709be6e83371ce10c2cbbcc05a8d') in 0.016582 seconds
+  Import took 0.018095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_2.png
+  artifactKey: Guid(1b8ee6ea45cb5aa48b891428aeaee882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_2.png using Guid(1b8ee6ea45cb5aa48b891428aeaee882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeedf5256b3fe6946e17ebb68bdffa8') in 0.017338 seconds
+  Import took 0.018817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_2.png
+  artifactKey: Guid(54133d5b95864dd468423542f13dd54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_2.png using Guid(54133d5b95864dd468423542f13dd54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d9397f7ee40c51f2a40e7bae3467f0') in 0.015856 seconds
+  Import took 0.017312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_7.png
+  artifactKey: Guid(8d6f0e2b2df403244ab0d8858fdfaaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_7.png using Guid(8d6f0e2b2df403244ab0d8858fdfaaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ae2f1302399f9d291c99e17865dc66') in 0.037854 seconds
+  Import took 0.039568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_1.png
+  artifactKey: Guid(616bb5cca614e0d4ca05d211f03cec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_1.png using Guid(616bb5cca614e0d4ca05d211f03cec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde694d67ed6b583aabed073f7d6ffcd') in 0.016017 seconds
+  Import took 0.017442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_3.png
+  artifactKey: Guid(fb7d4ea4e4e13f748a168e3ff7462adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_3.png using Guid(fb7d4ea4e4e13f748a168e3ff7462adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ab25e2b7d69ed86d100fc3e9f43427') in 0.015887 seconds
+  Import took 0.017348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_1.png
+  artifactKey: Guid(e3d1778a06e15854b87a10ebb700e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_1.png using Guid(e3d1778a06e15854b87a10ebb700e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd77642b028ddeb53d7a25550e18733') in 0.018193 seconds
+  Import took 0.019642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Mouth_2.png
+  artifactKey: Guid(1e5699c4c9521d34c8f55333cfe3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Mouth_2.png using Guid(1e5699c4c9521d34c8f55333cfe3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2128fef19095e08a5239f820c722b6') in 0.015624 seconds
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_0.png
+  artifactKey: Guid(588caca4380a99d499b2af1089499a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_0.png using Guid(588caca4380a99d499b2af1089499a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d89ddf739d005e4134a2360dd3cda7') in 0.016190 seconds
+  Import took 0.017621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_5.png
+  artifactKey: Guid(80c931433822524419344218b261b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_5.png using Guid(80c931433822524419344218b261b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6914e10861400d69d31ed18486407c') in 0.015873 seconds
+  Import took 0.017397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_0.png
+  artifactKey: Guid(a9a0af47005d9494db5a12ad2fad5109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_0.png using Guid(a9a0af47005d9494db5a12ad2fad5109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c591ad65388baf495f19feeb3678d64') in 0.015775 seconds
+  Import took 0.017513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_6.png
+  artifactKey: Guid(47f1adc7c40927848bf46dac83ada970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_6.png using Guid(47f1adc7c40927848bf46dac83ada970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a98614abe5f9d80fcc48af65ce33cc') in 0.016116 seconds
+  Import took 0.017550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_4.png
+  artifactKey: Guid(3c64f1877b5b6d24a8ed3e1becf2004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_4.png using Guid(3c64f1877b5b6d24a8ed3e1becf2004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7384445a11e9805e3bf22bfcbc1d069') in 0.016885 seconds
+  Import took 0.018354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_8.png
+  artifactKey: Guid(c37477859f3f61c49abe3bbf3f0e44fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_8.png using Guid(c37477859f3f61c49abe3bbf3f0e44fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a150830c1f2ca96916691f2bc9a81468') in 0.016733 seconds
+  Import took 0.018142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_2.png
+  artifactKey: Guid(c8a32f24c9538ea47b449c69e78e8426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_2.png using Guid(c8a32f24c9538ea47b449c69e78e8426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6788f977976a17f14831bb12c1a283f6') in 0.016012 seconds
+  Import took 0.017493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_1.png
+  artifactKey: Guid(0c028d24350e58a43a2b7ac84af6ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_1.png using Guid(0c028d24350e58a43a2b7ac84af6ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8245654652b20042fd44974fc41a04a7') in 0.018278 seconds
+  Import took 0.019707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_9.png
+  artifactKey: Guid(55faed2dc5184094b9d2f95a0d09ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_9.png using Guid(55faed2dc5184094b9d2f95a0d09ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60cad8699ae128082d960d5759f3c5b') in 0.016520 seconds
+  Import took 0.018071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_0.png
+  artifactKey: Guid(8117230c384529e4492ab44b422245cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Eyes_0.png using Guid(8117230c384529e4492ab44b422245cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec18d36342603a9a1a2a4cbc423b2b09') in 0.015966 seconds
+  Import took 0.017405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_0.png
+  artifactKey: Guid(d5d861eb7d03581409f810edca46b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_0.png using Guid(d5d861eb7d03581409f810edca46b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec08e9cf89e498e4c5075fef6568f24') in 0.016494 seconds
+  Import took 0.017926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_10.png
+  artifactKey: Guid(fbfe4b4359ff7ad478b6299676aa9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_10.png using Guid(fbfe4b4359ff7ad478b6299676aa9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34317ca9088d83cf56eda438663aa22c') in 0.015991 seconds
+  Import took 0.017420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_2.png
+  artifactKey: Guid(3afac411a232a014db7661e8eecfbbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_2.png using Guid(3afac411a232a014db7661e8eecfbbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f20d7d59dda66e54e761bd2cdcb5fb5') in 0.016623 seconds
+  Import took 0.018105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_10.png
+  artifactKey: Guid(4c591d62e51ce134387c9a3f291b816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_10.png using Guid(4c591d62e51ce134387c9a3f291b816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bd75071ec0231ff7fd95b13a6c5a45') in 0.016434 seconds
+  Import took 0.017903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_6.png
+  artifactKey: Guid(fa758b37ac3710f41933448b2064e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_6.png using Guid(fa758b37ac3710f41933448b2064e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54c0b0672d7f0ef2534836b8ba3ee7a') in 0.018129 seconds
+  Import took 0.019581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_8.png
+  artifactKey: Guid(6b0c952930bc9f845a52a6284e76da59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_8.png using Guid(6b0c952930bc9f845a52a6284e76da59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136ad6c9fb1cc4ba9936e4beacdce840') in 0.016065 seconds
+  Import took 0.017527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_4.png
+  artifactKey: Guid(368c94f002b2dd34391f30f126e81d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Hair_4.png using Guid(368c94f002b2dd34391f30f126e81d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a290c0fdd5ecf3d09a2cee96a8d73390') in 0.015771 seconds
+  Import took 0.017175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_1.png
+  artifactKey: Guid(de00dd0d428d0444a866a316e31b19a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Skin_1.png using Guid(de00dd0d428d0444a866a316e31b19a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cf70b06c7a55e69fe2f65077001c13') in 0.016311 seconds
+  Import took 0.017754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_5.png
+  artifactKey: Guid(3d76b2fd8e77a364589e687025ab03fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_5.png using Guid(3d76b2fd8e77a364589e687025ab03fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41aab1ba6d62dc62c3c0f60e4efe24f8') in 0.016558 seconds
+  Import took 0.018011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_1.png
+  artifactKey: Guid(6e99e6507eb3f7a4d9922a5cdb031ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Armour_1.png using Guid(6e99e6507eb3f7a4d9922a5cdb031ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558a21928b8d8e50f749a325d3989637') in 0.018593 seconds
+  Import took 0.020035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_4.png
+  artifactKey: Guid(614e60f6de7e7db4f8946e9c0a4b4f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_4.png using Guid(614e60f6de7e7db4f8946e9c0a4b4f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1aa60be3da4d41e8b2fb67f59f13b4') in 0.015948 seconds
+  Import took 0.017364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_3.png
+  artifactKey: Guid(efc257d7d94d1bb4fb516453ba5eaa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems RPG/Warrior Babe/Warrior Babe/Character/Clothes_3.png using Guid(efc257d7d94d1bb4fb516453ba5eaa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c01a5673467c9ae4ff163d424b3e95') in 0.017413 seconds
+  Import took 0.018813 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.599 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 1.375000 ms (FindLiveObjects: 0.114300 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.198300 ms  DeleteObjects: 0.037100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

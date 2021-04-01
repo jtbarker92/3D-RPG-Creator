@@ -15,10 +15,13 @@ namespace Debugging.Player
         private Vector3 _moveDir;
         private CharacterController _charC;
 
+        private Animator characterAnimator;
+
 
         private void Start()
         {
             _charC = GetComponent<CharacterController>();
+            characterAnimator = GetComponentInChildren<Animator>();
         }
         private void Update()
         {
@@ -26,26 +29,48 @@ namespace Debugging.Player
         }
         private void Move()
         {
+            Vector2 movementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
             if (_charC.isGrounded)
             {
-                if (Input.GetButton("Sprint"))
-                {
-                    moveSpeed = runSpeed;
-                }
-                else if (Input.GetButton("Crouch"))
+
+                if (Input.GetButton("Crouch"))
                 {
                     moveSpeed = crouchSpeed;
+                    characterAnimator.SetFloat("Speed", 0.25f);
                 }
                 else
                 {
-                    moveSpeed = walkSpeed;
+                    if (Input.GetButton("Sprint"))
+                    {
+                        moveSpeed = runSpeed;
+                        characterAnimator.SetFloat("Speed", 3f);
+                    }
+                    else if (!Input.GetButton("Sprint"))
+                    {
+                        moveSpeed = walkSpeed;
+                        characterAnimator.SetFloat("Speed", 1f);
+                    }
                 }
-                _moveDir = transform.TransformDirection(new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * moveSpeed); 
+
+                characterAnimator.SetBool("Walking", movementInput.magnitude > 0.05f);
+
+                //if(movementInput.magnitude > 0.05f)
+                //{
+                //    characterAnimator.SetBool("Walking", true);
+                //}
+                //else
+                //{
+                //    characterAnimator.SetBool("Walking", false);
+                //}
+
+                
+                _moveDir = transform.TransformDirection(new Vector3(movementInput.x, 0, movementInput.y) * moveSpeed); 
                 if (Input.GetButton("Jump"))
                 {
                     _moveDir.y = jumpSpeed;
                 }
-            }
+                }   
             _moveDir.y -= _gravity * Time.deltaTime;
             _charC.Move(_moveDir * Time.deltaTime);
         }
